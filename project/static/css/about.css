@@ -1,0 +1,347 @@
+.desktop-5,
+.desktop-5 * {
+  box-sizing: border-box;
+}
+
+.desktop-5 {
+  background: #f0e7f3;
+  width: 1300px;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+.openmoji-female-doctor {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 36.7%;
+  left: 37.77%;
+  width: 25.53%;
+  bottom: 69.46%;
+  top: 15.81%;
+  height: 14.74%;
+  overflow: visible;
+}
+.vector2 {
+  height: auto;
+  position: absolute;
+  right: 46.8%;
+  left: 47.79%;
+  width: 5.41%;
+  bottom: 73.85%;
+  top: 20.73%;
+  height: 5.42%;
+  overflow: visible;
+}
+.vector3 {
+  height: auto;
+  position: absolute;
+  right: 23.38%;
+  left: 23.48%;
+  width: 53.15%;
+  bottom: 15.44%;
+  top: 63.72%;
+  height: 20.83%;
+  overflow: visible;
+}
+.vector4 {
+  height: auto;
+  position: absolute;
+  right: 61.1%;
+  left: 30.57%;
+  width: 8.33%;
+  bottom: 16.94%;
+  top: 74.73%;
+  height: 8.33%;
+  overflow: visible;
+}
+.vector5 {
+  height: auto;
+  position: absolute;
+  right: 23.32%;
+  left: 50.19%;
+  width: 26.49%;
+  bottom: 15.46%;
+  top: 63.71%;
+  height: 20.83%;
+  overflow: visible;
+}
+.vector6 {
+  height: auto;
+  position: absolute;
+  right: 33.81%;
+  left: 34.69%;
+  width: 31.5%;
+  bottom: 36.96%;
+  top: 29.52%;
+  height: 33.52%;
+  overflow: visible;
+}
+.group {
+  height: auto;
+  position: absolute;
+  right: 27.5%;
+  left: 28.36%;
+  width: 44.14%;
+  bottom: 40.11%;
+  top: 29.39%;
+  height: 30.5%;
+  overflow: visible;
+}
+.vector9 {
+  height: auto;
+  position: absolute;
+  right: 26.13%;
+  left: 26.97%;
+  width: 46.9%;
+  bottom: 40.8%;
+  top: 30.58%;
+  height: 28.62%;
+  overflow: visible;
+}
+.vector10 {
+  height: auto;
+  position: absolute;
+  right: 32.42%;
+  left: 33.29%;
+  width: 34.29%;
+  bottom: 35.58%;
+  top: 30.54%;
+  height: 33.88%;
+  overflow: visible;
+}
+.vector11 {
+  height: auto;
+  position: absolute;
+  right: 35.28%;
+  left: 36.39%;
+  width: 28.33%;
+  bottom: 44.65%;
+  top: 28.18%;
+  height: 27.17%;
+  overflow: visible;
+}
+.vector12 {
+  height: auto;
+  position: absolute;
+  right: 35.31%;
+  left: 49.15%;
+  width: 15.54%;
+  bottom: 67.38%;
+  top: 14.41%;
+  height: 18.21%;
+  overflow: visible;
+}
+.vector13 {
+  height: auto;
+  position: absolute;
+  right: 48.07%;
+  left: 36.38%;
+  width: 15.54%;
+  bottom: 67.38%;
+  top: 14.41%;
+  height: 18.21%;
+  overflow: visible;
+}
+.vector14 {
+  height: auto;
+  position: absolute;
+  right: 21.81%;
+  left: 22.44%;
+  width: 55.75%;
+  bottom: 15.39%;
+  top: 62.77%;
+  height: 21.85%;
+  overflow: visible;
+}
+.vector15 {
+  height: auto;
+  position: absolute;
+  right: 32.94%;
+  left: 59.51%;
+  width: 7.55%;
+  bottom: 14.09%;
+  top: 61.99%;
+  height: 23.92%;
+  overflow: visible;
+}
+.vector16 {
+  height: auto;
+  position: absolute;
+  right: 27.61%;
+  left: 40.76%;
+  width: 31.63%;
+  bottom: 14.09%;
+  top: 66.37%;
+  height: 19.54%;
+  overflow: visible;
+}
+.vector17 {
+  height: auto;
+  position: absolute;
+  right: 40.75%;
+  left: 48.62%;
+  width: 10.63%;
+  bottom: 15.38%;
+  top: 66.7%;
+  height: 17.92%;
+  overflow: visible;
+}
+.dr-sana-manai {
+  color: #4d4857;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  left: 140px;
+  top: 40px;
+  width: 469px;
+  height: 68px;
+}
+.la-chirurgie-cardiovasculaire-traite-un-important-nombre-de-pathologies-cardiaques-les-pathologies-des-coronaires-et-du-muscle-cardiaque-celles-des-valves-cardiaques-et-du-p-ricarde-p-ricardite-aigu-et-chronique-les-pathologies-vasculaires-p-riph-riques-et-centrales-l-hypertension-art-rielle-la-chirurgie-cardiovasculaire-traite-un-important-nombre-de-pathologies-cardiaques-les-pathologies-des-coronaires-et-du-muscle-cardiaque-celles-des-valves-cardiaques-et-du-p-ricarde-p-ricardite-aigu-et-chronique-les-pathologies-vasculaires-p-riph-riques-et-centrales-l-hypertension-art-rielle {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 20;
+  position: absolute;
+  left: 90px;
+  top: 240px;
+  width: 1100px;
+  height: 243px;text-align: justify;
+}
+.professeure-en-cardiologie-rythmologie-interventionnelle-service-de-cardiologie-chu-la-rabta-facult-de-m-decine-de-tunis-universit-tunis-el-manar {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 20;
+  position: absolute;
+  left: 90px;
+  top: 380px;
+  width: 1100px;
+  height: 75px;text-align: justify;
+}
+.telephone-97236458 {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 20;
+  position: absolute;
+  left: 150px;
+  top:925px;
+  width: 363px;
+  height: 51px;
+}
+.sana-contact-gmail-com {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 20;
+  text-transform: lowercase;
+  text-decoration: underline;
+  position: absolute;
+  left: 150px;
+  top: 895px;
+  width: 363px;
+  height: 51px;
+}
+.introduction-g-n-rale-sur-la-chirurgie-cardio-vasculaire {
+  color: #0a3ae4;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 50;
+  position: absolute;
+  left: 89px;
+  top: 200px;
+  width: 885px;
+  height: 51px;
+}
+.introduction-g-n-rale-sur-la-chirurgie-cardio-vasculaire-span {
+  color: #0a3ae4;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 50;
+}
+.introduction-g-n-rale-sur-la-chirurgie-cardio-vasculaire-span2 {
+  color: #0a3ae4;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 50;
+  text-transform: lowercase;
+}
+.our-doctor {
+  color: #0a3ae4;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 50;
+  position: absolute;
+  left: 90px;
+  top: 340px;
+  width: 885px;
+  height: 51px;
+}
+.title{
+  color: #0a3ae4;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size:20px;
+  font-weight: 50;
+  position: absolute;
+  left: 90px;
+  top: 430px;
+  width: 885px;
+  height: 51px;
+}
+.video{
+  position: absolute;
+  left: 90px;
+  top: 470px;
+  width: 1000px;
+  height: 40px;
+}
+.photo{
+  position: absolute;
+  left: 650px;
+  top: 500px;
+}
+.pour-pus-d-infos {
+  color: #0a3ae4;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size:20px;
+  font-weight: 50;
+  position: absolute;
+  left: 90px;
+  top: 860px;
+  width: 885px;
+  height: 51px;
+}
+.material-symbols-light-ecg-heart-outline-sharp {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 1209px;
+  top: 20px;
+  overflow: visible;
+}
+.maki-doctor {
+  width:70px;
+  height: 100px;
+  position: absolute;
+  left: 1210px;
+  top: 41px;
+  overflow: visible;
+}

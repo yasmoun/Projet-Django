@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'css/1.css' %}" />
+      <meta charset="utf-8">
+      <script src="{% static 'js/script.js' %}"></script>
+    </head>
+    <body id="b2" style="background-image: url('{% static 'images/b.jpg' %}');"> 
+<h1 ><u> Welcome !</u> </h1>
+<form method="POST" action="/insert">
+  {% csrf_token %}
+  {% for message in messages %}
+    <div style="color: red;" class="alert alert-{{ message.tags }}">{{ message }}</div>
+{% endfor %}
+<table id="tab1" width =40% align="center" >
+  <tr>
+    <td id="td"> first Name : </td> <td><input type="text" placeholder="first name" name="nom" required></td>
+  </tr>
+  <tr>
+    <td id="td"> last name : </td> <td><input type="text" placeholder="last name" name="prenom" required></td>
+  </tr>
+  <tr>
+    <td id="td">Email : </td> <td ><input type="email" placeholder="ex: myname@example.com" name="email" required></td>
+  </tr>
+  <tr>
+    <td id="td"> Gender : </td>   
+    <td>
+        <label> male      </label>
+        <input type="radio" value="Homme" name="sexe" > 
+        <label> female      </label>
+        <input type="radio" value="Femme" name="sexe" > 
+    </td>
+  </tr>
+  <tr>
+    <td id="td"> age :</td>
+      <td> <input type="text" placeholder="age" name="age" required></td>
+  </tr>
+  <tr>
+    <td id="td"> city : </td><td > <input type="text" placeholder="city" name="ville" required></td> 
+  </tr>
+  <tr>
+  <td id="td"> Phone number: </td> <td > <input type="text" placeholder="phone number" name="phone" required> </td> 
+</tr>
+<tr >
+  <td id="td"> Allergies : </td>
+  <td><input type="text" placeholder="enter allergies if you have" name="allergies"></td>
+</tr>
+<tr>
+  <td id="td"> Current medications : </td>
+  <td><input type="text" placeholder="you Current medications " name="medications"></td>
+</tr>
+<tr>
+  <td id="td"> date : </td>
+  <td><input type="text" placeholder="jj/mm/yyyy " name="date"></td>
+</tr>
+<tr>
+  <td id="td"> time : </td>
+  <td><input type="text" placeholder="hh:mm " name="time"></td>
+</tr>
+
+</table> <br> 
+    <form align="center"> <button id="butt2" type="submit"> Reserve </button> </form>
+     <p id="b" style="font-size: 30px;font-weight: bold;" ><u> <a href="{% url 'interface' %}"> back </a> </u></p>
+
+  </form>
+</body>
+</html>       

@@ -1,0 +1,13 @@
+:root {
+    --variable-collection-blue: rgba(24, 87, 249, 1);
+    --variable-collection-light-blue: rgba(208, 233, 253, 1);
+    --variable-collection-grey: rgba(173, 177, 187, 1);
+    --variable-collection-dark-grey: rgba(92, 96, 106, 1);
+    --variable-collection-green: rgba(5, 133, 79, 1);
+    --variable-collection-black: rgba(20, 20, 20, 1);
+    --variable-collection-rose: rgba(176, 15, 73, 1);
+    --variable-collection-dark-blue: rgba(5, 18, 133, 1);
+    --variable-collection-light-black: rgba(75, 76, 80, 1);
+    --variable-collection-violet: rgba(194, 94, 219, 0.09);
+  }
+  

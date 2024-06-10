@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'css/1.css' %}" />
+      <meta charset="utf-8">
+    </head>
+    <body id="b2" style="background-image: url('{% static 'images/b.jpg' %}');"> 
+<h1 ><u> Update !</u> </h1>
+<form method="POST" action="/update/{{d.id}}">
+  {% csrf_token %}
+<table id="tab1" width =40% align="center" >
+  <tr>
+    <td id="td"> first Name : </td> <td><input type="text" placeholder="first name" name="nom" value={{d.firstName}}></td>
+  </tr>
+  <tr>
+    <td id="td"> last name : </td> <td><input type="text" placeholder="last name" name="prenom" value={{d.lastName}}></td>
+  </tr>
+  <tr>
+    <td id="td">Email : </td> <td ><input type="email" placeholder="ex: myname@example.com" name="email" value={{d.email}}></td>
+  </tr>
+  <tr>
+    <td id="td"> Gender : </td>   
+    <td>
+        <label> male      </label>
+        <input type="radio" value="Homme" name="sexe" > 
+        <label> female      </label>
+        <input type="radio" value="Femme" name="sexe" > 
+    </td>
+  </tr>
+  <tr>
+    <td id="td"> age :</td>
+      <td> <input type="text" placeholder="age" name="age" value={{d.age}}></td>
+  </tr>
+  <tr>
+    <td id="td"> city : </td><td > <input type="text" placeholder="city" name="ville" value={{d.city}}></td> 
+  </tr>
+  <tr>
+  <td id="td"> Phone number: </td> <td > <input type="text" placeholder="speciality" name="phone" value={{d.phone}}> </td> 
+</tr>
+<tr >
+  <td id="td"> Allergies : </td>
+  <td><input type="text" placeholder="enter allergies if you have" name="allergies" value={{d.allergies}}></td>
+</tr>
+<tr>
+  <td id="td"> Current medications : </td>
+  <td><input type="text" placeholder="you Current medications " name="medications" value={{d.medications}}></td>
+</tr>
+<tr>
+  <td id="td"> date : </td>
+  <td><input type="text" placeholder="yy/mm/yyyy " name="date" value={{d.date}}></td>
+</tr>
+<tr>
+  <td id="td"> time : </td>
+  <td><input type="text" placeholder="hh:mm " name="time" value={{d.time}}></td>
+</tr>
+
+</table> <br> 
+    <form align="center"> <button id="butt2" type="submit"> Update </button> </form>
+     <p id="b" ><u> <a href="{% url 'page2' %}"> back </a> </u></p>
+
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body> 
+</html>         

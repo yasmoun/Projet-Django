@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'css/1.css' %}" />
+      <meta charset="utf-8">
+
+    </head>
+    <body id="b2" style="background-image: url('{% static 'images/b.jpg' %}');"> 
+<h1 ><u>   Add review  !</u> </h1>
+{% if form.errors %}
+    <ul class="errorlist">
+        {% for field, error in form.errors.items %}
+            <li>{{ field }}: {{ error }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+<form method="POST" action="/ajoutAvis" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+<table id="tab1" width =40% align="center" >
+  <tr>
+    <td id="td"> first Name : </td> <td><input type="text" placeholder="first name" name="nom" required></td>
+  </tr>
+  <tr>
+    <td id="td"> last name : </td> <td><input type="text" placeholder="last name" name="prenom" required></td>
+  </tr>
+  <tr>
+    <td id="td"> Reviw: </td> <td><input type="text" placeholder="review" name="avis" required></td>
+  </tr>
+  <tr>
+    <td id="td">Upload image : </td> <td ><input type="file" name="image" required></td>
+  </tr>
+  
+
+</table> <br> 
+    <form align="center"> <button id="butt2" type="submit"> Add  </button> </form>
+     <p id="b" ><u> <a href="{% url 'interface' %}"> back </a> </u></p>
+
+</body>
+</html>       

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'css/1.css' %}" />
+    </head>
+    <body id="b2" style="background-image: url('{% static 'images/b.jpg' %}');"> 
+<h1 ><u> Welcome Back !</u> </h1><br> <br><br>
+<form >
+<table id="tab1" width =40% align="center" >
+  <tr>
+    <td id="td"> Name : </td> <td></td>
+  </tr>
+  <tr><td></td><td><input type="text" placeholder="enter name " ></td> </tr>
+  <tr>
+    <td id="td"> Password : </td><td></td>
+  </tr>
+  <tr>
+    <td></td><td><input type="text" placeholder="enter Password" ></td>
+  </tr>
+  <tr><td></td><td style="text-align: right; color: rgb(128, 126, 126);">Forgot Password? </td></tr>
+</table> <br> <br> 
+<p style="color:  rgb(128, 126, 126); font-size: small; position: absolute;left: 420px;top: 355px;">Don't have an account? <a href="{% url 'SignIn' %}">Sign Up</a></p>
+<button id="butt1" onclick="location.href='page3.html'" type="button" > Log In </button> </form>
+<p id="b"><u><a href="{% url 'interface' %}">Back</a></u></p>
+    </body>
+</html>

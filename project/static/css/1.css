@@ -1,0 +1,31 @@
+#b2{text-align: center; }
+.titre1{font-size:60px; font-family:Verdana; color: #3c0241; text-shadow: #6e2474;font-weight:bolder;
+    text-decoration: underline;}
+h1{color:rgb(5, 5, 148) ; font-family:fantasy ;font-weight: bolder ; text-align: center ; font-size:30px; font-size: 60px; } 
+#id2{color: rgb(12, 12, 128); font-style: italic; font-weight: bold; mask-border: blue ; text-decoration: underline double; } 
+p{ font-size:medium; font-weight:20px;color: black; text-align:center;}
+#titre{color: rgb(91, 58, 134); font-size: xx-large;font-weight: bolder; text-decoration-color: #6e2474; }
+#option{text-align: left; color:rgb(82, 75, 75) ; font-size: x-large;font-family:Verdana;}
+h4{color: rgb(190, 140, 151) ; font-size:29px; font-style: italic; font-family: Verdana; text-decoration: underline;}
+#tab1{border-style:inset ;border-radius:15px 50px;text-align: left;}
+#b{text-align: right;position: absolute;top:550px;left:1200px}
+#td{font-size: 20px;text-align: center;}
+button{border-radius:12px 12px; background-color: rgb(97, 117, 146); height:50px;width:250px;cursor: pointer;font-size:20px;font-weight: bold;text-align: left;} 
+input{
+    border: 2px solid transparent;
+    padding: 5px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: #5e5c5c solid 2px;
+}
+#butt1{
+    border-radius:12px 12px; background-color: rgb(97, 117, 146); height:50px;width:250px;cursor: pointer;font-size:20px;font-weight: bold;position: absolute;top:420px;left:540px;text-align: center;
+}   
+#butt2{
+    border-radius:12px 12px; background-color: rgb(97, 117, 146);text-align: center;
+}  
+.form-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
